@@ -1,0 +1,10 @@
+#mutt config
+bind index,pager g group-reply
+set followup_to=yes
+set edit_headers = yes
+set sort=threads
+#set sort_aux=date-received
+#set sort_aux=reverse-last-date-received
+set sort_aux=reverse-date-received
+set edit_headers=yes
+set mail_check = 60

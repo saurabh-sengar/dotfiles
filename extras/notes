@@ -1,0 +1,12 @@
+Linux kernels
+-------------
+Mainline:
+git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+Next:
+git clone https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+
+Config options
+---------------
+	CONFIG_DEBUG_INFO_BTF is not set
+	CONFIG_SYSTEM_TRUSTED_KEYS=""
+	scripts/config --disable SYSTEM_REVOCATION_KEYS
