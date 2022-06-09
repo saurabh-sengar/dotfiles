@@ -10,3 +10,7 @@ Config options
 	CONFIG_DEBUG_INFO_BTF is not set
 	CONFIG_SYSTEM_TRUSTED_KEYS=""
 	scripts/config --disable SYSTEM_REVOCATION_KEYS
+
+nvim
+----
+:Pluginstall
