@@ -10,16 +10,17 @@ sudo apt-add-repository -y ppa:neovim-ppa/unstable
 
 # install build-essential git gcc
 sudo apt update
-sudo apt install -y build-essential libncurses-dev bison flex libssl-dev libelf-dev ssh git vim net-tools zstd neovim python3-pip exuberant-ctags clangd ripgrep curl
+#sudo apt install -y build-essential libncurses-dev bison flex libssl-dev libelf-dev ssh git vim net-tools zstd neovim python3-pip exuberant-ctags clangd ripgrep curl
+sudo apt install -y build-essential libncurses-dev bison flex libssl-dev libelf-dev ssh git vim net-tools zstd python3-pip exuberant-ctags
 
-mkdir ~/.config/nvim
+#mkdir ~/.config/nvim
 mkdir /work/
 sudo chown -R $USER:$USER /work
 
 cp ../bashrc ~/.bashrc
 cp ../gitconfig ~/.gitconfig
 cp ../vimrc ~/.vimrc
-cp ../init.vim ~/.config/nvim/init.vim
+#cp ../init.vim ~/.config/nvim/init.vim
 
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+#sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+#       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
